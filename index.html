@@ -489,81 +489,81 @@
     <!-- ===============МОДАЛЬНОЕ ОКНО=============== -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-button" type="button" data-modal-close>
-          <svg class="icon-close">
+        <button class="modal__close--button" type="button" data-modal-close>
+          <svg class="modal__icon--close">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
-        <form action="#" class="modal-form">
-          <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
-          <label class="modal-form-field"
+        <form action="#" class="modal__form">
+          <p class="modal__head">Оставьте свои данные, мы вам перезвоним</p>
+          <label class="modal__field"
             >Имя
-            <span class="modal-form-input-wrapper">
+            <span class="modal__wrapper">
               <input
-                class="modal-form-input"
+                class="modal__input"
                 type="text"
                 name="name"
                 minlength="2"
                 title="Введите свое имя"
                 required
               />
-              <svg class="modal-form-icon" width="18" height="18">
+              <svg class="modal__icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-person"></use>
               </svg>
             </span>
           </label>
-          <label class="modal-form-field"
+          <label class="modal__field"
             >Телефон
-            <span class="modal-form-input-wrapper">
+            <span class="modal__wrapper">
               <input
-                class="modal-form-input"
+                class="modal__input"
                 type="tel"
                 name="phone"
                 minlength="9"
                 title="Введите номер телефон в фортате +380111222333"
                 required
               />
-              <svg class="modal-form-icon" width="18" height="18">
+              <svg class="modal__icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-phone"></use>
               </svg>
             </span>
           </label>
-          <label class="modal-form-field"
+          <label class="modal__field"
             >Почта
-            <span class="modal-form-input-wrapper">
+            <span class="modal__wrapper">
               <input
-                class="modal-form-input"
+                class="modal__input"
                 type="email"
                 name="email"
                 title="Введите почтовый ящик"
                 required
               />
-              <svg class="modal-form-icon" width="18" height="18">
+              <svg class="modal__icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-email"></use>
               </svg>
             </span>
           </label>
-          <label class="modal-form-field"
+          <label class="modal__field"
             >Комментарий
             <textarea
-              class="modal-form-comments"
+              class="modal__comments"
               name="comments"
               placeholder="Введите текст"
               title="Тут можно ввести свой комментарий"
             ></textarea>
           </label>
           <input
-            class="modal-form-checkbox visually-hidden {"
+            class="modal__checkbox visually-hidden {"
             type="checkbox"
             name="checkbox-policy"
             id="checkbox-policy"
             required
           />
-          <label class="modal-form-checkbox-policy" for="checkbox-policy"
+          <label class="modal__checkbox--policy" for="checkbox-policy"
             >Соглашаюсь с рассылкой и принимаю
-            <a class="modal-form-policy-link" href="#">Условия договора</a>
+            <a class="modal__link" href="#">Условия договора</a>
           </label>
-          <button class="modal-form-button" type="submit">Отправить</button>
+          <button class="modal__submit--button" type="submit">Отправить</button>
         </form>
       </div>
     </div>
