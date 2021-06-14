@@ -58,7 +58,7 @@ a {
 /* header */
 
 /* top line bg */
-
+/* ===============НАЧАЛО ШАПКИ===============*/
 .header-main {
   color: var(--title-text-color-secondary);
   display: flex;
@@ -77,12 +77,12 @@ a {
   padding-right: 15px;
   width: 1200px;
 }
-.header {
+.header-main__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header-nav {
+.header-main__nav {
   display: flex;
   align-items: center;
 }
@@ -90,14 +90,14 @@ a {
   display: flex;
   align-items: center;
 }
-.website-nav-list-item:not(:last-child) {
+.website-nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts-nav-list {
   display: flex;
   align-items: center;
 }
-.contacts-nav-list-item:last-child {
+.contacts-nav-list__item:last-child {
   margin-left: 50px;
 }
 
@@ -120,7 +120,7 @@ a {
 
 /* Menu Nav */
 
-.website-nav-list .nav-link {
+.website-nav-list__link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -132,7 +132,7 @@ a {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.website-nav-list .index-nav-link-current {
+.website-nav-list__link--current {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -143,7 +143,7 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.website-nav-list .portfolio-nav-link-current {
+.website-nav-list__portfolio--link--current {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -154,11 +154,11 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.website-nav-list .nav-link:hover,
-.website-nav-list .nav-link:focus {
+.website-nav-list__link:hover,
+.website-nav-list__link:focus {
   color: var(--accent-text-color);
 }
-.contacts-nav-list .link {
+.contacts-nav-list__link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -168,21 +168,21 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* color: red; */
 }
-.contacts-nav-list .link:hover,
-.contacts-nav-list .link:focus {
+.contacts-nav-list__link:hover,
+.contacts-nav-list__link:focus {
   color: var(--accent-text-color);
 }
-.icon-contacts {
+.contacts-nav-list__icon {
   margin-right: 10px;
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-contacts:hover,
-.icon-contacts:focus {
+.contacts-nav-list__icon:hover,
+.contacts-nav-list__icon:focus {
   fill: var(--accent-text-color);
 }
 
-.website-nav-list .index-nav-link-current::after {
+.website-nav-list__link--current::after {
   content: '';
   display: block;
   position: absolute;
@@ -194,7 +194,7 @@ a {
   border: 0;
   border-radius: 2px;
 }
-.website-nav-list .portfolio-nav-link-current::after {
+.website-nav-list__portfolio--link--current::after {
   content: '';
   display: block;
   position: absolute;
@@ -206,6 +206,9 @@ a {
   border: 0;
   border-radius: 2px;
 }
+/* ===============КОНЕЦ ШАПКИ===============*/
+
+/* ==============НАЧАЛО ОСНОВНОГО КОНТЕНТА===============*/
 /* main content*/
 .section-hero {
   background: #c4c4c4;
