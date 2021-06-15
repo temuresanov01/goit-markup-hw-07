@@ -73,53 +73,63 @@
       <section class="section">
         <div class="container">
           <ul class="button-filter-list">
-            <li class="button-filter-list-item">
-              <button class="button-filter-current" type="button">Все</button>
+            <li class="button-filter-list__item">
+              <button class="button-filter-list__button--current" type="button">
+                Все
+              </button>
             </li>
-            <li class="button-filter-list-item">
-              <button class="button-filter" type="button">Веб-сайты</button>
+            <li class="button-filter-list__item">
+              <button class="button-filter-list__button" type="button">
+                Веб-сайты
+              </button>
             </li>
-            <li class="button-filter-list-item">
-              <button class="button-filter" type="button">Приложения</button>
+            <li class="button-filter-list__item">
+              <button class="button-filter-list__button" type="button">
+                Приложения
+              </button>
             </li>
-            <li class="button-filter-list-item">
-              <button class="button-filter" type="button">Дизайн</button>
+            <li class="button-filter-list__item">
+              <button class="button-filter-list__button" type="button">
+                Дизайн
+              </button>
             </li>
-            <li class="button-filter-list-item">
-              <button class="button-filter" type="button">Маркетинг</button>
+            <li class="button-filter-list__item">
+              <button class="button-filter-list__button" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <!--секция с проектами-->
           <ul class="project-list">
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio1.jpg"
                     alt="сайт с визитками команды в ноутбуки"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline">Технокряк</h3>
-                  <p class="tagline">Веб-сайт</p>
+                <div class="project-list__content">
+                  <h3 class="project-list__headline">Технокряк</h3>
+                  <p class="project-list__tagline">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio2.jpg"
                     alt="дизайн постера игры в баскетбол"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -127,23 +137,23 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline">
+                <div class="project-list__content">
+                  <h3 class="project-list__headline">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h3>
-                  <p class="tagline">Дизайн</p>
+                  <p class="project-list__tagline">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio3.jpg"
                     alt="логотип приложения ресторан Морепродуктов"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -151,23 +161,23 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline">
+                <div class="project-list__content">
+                  <h3 class="project-list__headline">
                     Ресторан <span lang="en">Seafood</span>
                   </h3>
-                  <p class="tagline">Приложение</p>
+                  <p class="project-list__tagline">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio4.jpg"
                     alt="Наушники"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -175,21 +185,23 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline">Проект <span lang="en">Prime</span></h3>
-                  <p class="tagline">Маркетинг</p>
+                <div class="project-list__content">
+                  <h3 class="project-list__headline">
+                    Проект <span lang="en">Prime</span>
+                  </h3>
+                  <p class="project-list__tagline">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio5.jpg"
                     alt="два ящика"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -197,21 +209,23 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline">Проект <span lang="en">Boxes</span></h3>
-                  <p class="tagline">Приложение</p>
+                <div class="project-list__content">
+                  <h3 class="project-list__headline">
+                    Проект <span lang="en">Boxes</span>
+                  </h3>
+                  <p class="project-list__tagline">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio6.jpg"
                     alt="моноблок"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -219,21 +233,23 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline" lang="en">Inspiration has no Borders</h3>
-                  <p class="tagline">веб-сайт</p>
+                <div class="project-list__content">
+                  <h3 class="project-list__headline" lang="en">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="project-list__tagline">веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio7.jpg"
                     alt="открытый журнал"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -241,19 +257,19 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline">
+                <div class="project-list__content">
+                  <h3 class="project-list__headline">
                     Издание <span lang="en">Limited Edition</span>
                   </h3>
-                  <p class="tagline">Дизайн</p>
+                  <p class="project-list__tagline">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img src="./images/portfolio8.jpg" alt="бирка" width="370" />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -261,21 +277,23 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline">Проект <span lang="en">LAB</span></h3>
-                  <p class="tagline">Маркетинг</p>
+                <div class="project-list__content">
+                  <h3 class="project-list__headline">
+                    Проект <span lang="en">LAB</span>
+                  </h3>
+                  <p class="project-list__tagline">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="project-list-item">
-              <a class="project-list-item-link" href="">
-                <div class="project-container-overlay">
+            <li class="project-list__item">
+              <a class="project-list__link" href="">
+                <div class="project-list__overlay">
                   <img
                     src="./images/portfolio9.jpg"
                     alt="мужчина работает на ноутбуке"
                     width="370"
                   />
-                  <p class="overlay-title">
+                  <p class="project-list__title">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Natus recusandae dolore, expedita voluptatibus dignissimos
                     adipisci praesentium nesciunt dicta soluta inventore
@@ -283,9 +301,11 @@
                     possimus corporis.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h3 class="headline" lang="en">Growing Business</h3>
-                  <p class="tagline">Приложение</p>
+                <div class="project-list__content">
+                  <h3 class="project-list__headline" lang="en">
+                    Growing Business
+                  </h3>
+                  <p class="project-list__tagline">Приложение</p>
                 </div></a
               >
             </li>
@@ -295,49 +315,53 @@
     </main>
     <!--подвал страницы портфолио-->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <!--Адрес и контакты-->
-        <address id="address-portfolio">
+        <address class="footer-address" id="address-portfolio">
           <a class="logo-white" lang="en" href="index.html"
             ><span class="logo-web">Web</span>Studio</a
           >
           <a
-            class="address"
+            class="footer-address__location"
             href="https://goo.gl/maps/ibRqbfUvFssrjPC37"
             target="_blank"
             rel="noreferrer noopener"
             >г. Киев, пр-т Леси Украинки, 26</a
           >
-          <a class="link" href="mailto:info@example.com">info@example.com</a>
-          <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+          <a class="footer-address__link" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="footer-address__link" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
         </address>
         <div class="footer-social-container">
-          <p class="join-social-title">присоединяйтесь</p>
-          <ul class="footer-social-list">
-            <li class="footer-social-list-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon">
+          <p class="footer-social-container__title">присоединяйтесь</p>
+          <ul class="footer-social-container__list">
+            <li class="footer-social-container__item">
+              <a href="" class="footer-social-container__link">
+                <svg class="footer-social-container__icon">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon">
+            <li class="footer-social-container__item">
+              <a href="" class="footer-social-container__link">
+                <svg class="footer-social-container__icon">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon">
+            <li class="footer-social-container__item">
+              <a href="" class="footer-social-container__link">
+                <svg class="footer-social-container__icon">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon">
+            <li class="footer-social-container__item">
+              <a href="" class="footer-social-container__link">
+                <svg class="footer-social-container__icon">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -345,18 +369,27 @@
           </ul>
         </div>
         <div class="footer-subscribe-container">
-          <p class="footer-subscribe-title">Подпишитесь на рассылку</p>
-          <div class="subscribe-form-container">
-            <form class="subscribe-form">
+          <p class="footer-subscribe-container__title">
+            Подпишитесь на рассылку
+          </p>
+          <div class="footer-subscribe-container__form--container">
+            <form class="footer-subscribe-container__form">
               <input
-                class="input-form-subscribe"
+                class="footer-subscribe-container__input"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
               />
-              <button class="button-subscribe" type="submit">
-                Подписаться<svg class="icon-send" width="24" height="24">
+              <button
+                class="footer-subscribe-container__button--subscribe"
+                type="submit"
+              >
+                Подписаться<svg
+                  class="footer-subscribe-container__icon--send"
+                  width="24"
+                  height="24"
+                >
                   <use href="./images/sprite.svg#icon-send"></use>
                 </svg>
               </button>
