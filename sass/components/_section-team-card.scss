@@ -1,0 +1,56 @@
+.section-team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.section-team-card__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.section-team-card__profession {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.section-team-card__social--list {
+  display: flex;
+  justify-content: space-between;
+}
+.section-team-card__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #ffffff;
+  transition: backgraund 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-team-card__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-team-card__link:hover,
+.section-team-card__link:focus {
+  background: var(--accent-text-color);
+}
+.section-team-card__link:hover .section-team-card__icon,
+.section-team-card__link:focus .section-team-card__icon {
+  fill: var(--title-text-color-secondary);
+}

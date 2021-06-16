@@ -1,0 +1,17 @@
+.header-main {
+  color: var(--title-text-color-secondary);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-main__nav {
+  display: flex;
+  align-items: center;
+}
