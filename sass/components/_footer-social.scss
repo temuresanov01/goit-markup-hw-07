@@ -34,6 +34,10 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
 }
 .footer-social-container__icon {
   width: 20px;
@@ -41,10 +45,7 @@
   fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-container__link:hover,
-.footer-social-container__link:focus {
-  background-color: var(--accent-text-color);
-}
+
 .footer-social-container__link:hover .social-icon,
 .footer-social-container__link:focus .social-icon {
   fill: var(--title-text-color-secondary);
