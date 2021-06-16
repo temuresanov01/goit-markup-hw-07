@@ -1,3 +1,10 @@
+.website-nav-list {
+  display: flex;
+  align-items: center;
+}
+.website-nav-list__item:not(:last-child) {
+  margin-right: 50px;
+}
 .website-nav-list__link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
