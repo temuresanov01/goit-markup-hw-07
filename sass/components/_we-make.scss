@@ -15,11 +15,12 @@
 .we-make__list {
   display: flex;
 }
-.we-make__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .we-make__item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .we-make__text {
   position: absolute;

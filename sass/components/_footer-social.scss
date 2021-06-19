@@ -21,10 +21,11 @@
 }
 .footer-social-container__item {
   margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.footer-social-container__item:last-child {
-  margin-right: 0;
-}
+
 .footer-social-container__link {
   display: flex;
   align-items: center;
@@ -37,6 +38,10 @@
   &:hover,
   &:focus {
     background-color: var(--accent-text-color);
+    &:hover .social-icon,
+    &:focus .social-icon {
+      fill: var(--title-text-color-secondary);
+    }
   }
 }
 .footer-social-container__icon {
@@ -44,9 +49,4 @@
   height: 20px;
   fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-container__link:hover .social-icon,
-.footer-social-container__link:focus .social-icon {
-  fill: var(--title-text-color-secondary);
 }
